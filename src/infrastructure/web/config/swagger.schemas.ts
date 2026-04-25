@@ -98,4 +98,30 @@
  *           type: number
  *           example: 2020
  */
+/**
+ * @openapi
+ * components:
+ *   schemas:
+ *     Dealership:
+ *       type: object
+ *       description: Representa un concesionario del sistema
+ *       required:
+ *         - id
+ *         - name
+ *         - location
+ *         - continent
+ *       properties:
+ *         id:
+ *           type: number
+ *           example: 1
+ *         name:
+ *           type: string
+ *           example: Toyota
+ *         location:
+ *           type: string
+ *           example: Ciudad de México
+ *         continent:
+ *           type: string
+ *           example: América
+ */
 export {};
