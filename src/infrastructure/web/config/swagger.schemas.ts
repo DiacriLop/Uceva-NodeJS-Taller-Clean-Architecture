@@ -71,4 +71,31 @@
  *           type: number
  *           example: 4500
  */
+
+/**
+ * @openapi
+ * components:
+ *   schemas:
+ *     Vehicle:
+ *       type: object
+ *       description: Representa un vehículo del sistema
+ *       required:
+ *         - id
+ *         - brand
+ *         - model
+ *         - year
+ *       properties:
+ *         id:
+ *           type: number
+ *           example: 1
+ *         brand:
+ *           type: string
+ *           example: Toyota
+ *         model:
+ *           type: string
+ *           example: Corolla
+ *         year:
+ *           type: number
+ *           example: 2020
+ */
 export {};
